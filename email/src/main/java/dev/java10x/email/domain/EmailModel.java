@@ -23,6 +23,7 @@ public class EmailModel {
     private UUID emailId;
     private UUID userId;
     private String emailFrom;
+    private String emailTo;
     private String emailSubject;
     @Column(columnDefinition = "BODY")
     private String body;
